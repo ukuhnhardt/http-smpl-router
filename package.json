@@ -1,0 +1,27 @@
+{
+  "name": "http-smpl-router",
+  "version": "0.0.1",
+  "description": "A simple router for node http module. Register routes and delegate HTTP requests directly to the router.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ukuhnhardt/http-smpl-router"
+  },
+  "author": "Ulrich Kuhnhardt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ukuhnhardt/http-smpl-router/issues"
+  },
+  "homepage": "https://github.com/ukuhnhardt/http-smpl-router",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.2.1",
+    "node-mocks-http": "^1.2.7"
+  },
+  "dependencies": {
+    "underscore": "^1.8.2"
+  }
+}
