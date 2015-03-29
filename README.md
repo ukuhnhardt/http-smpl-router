@@ -5,13 +5,14 @@ A simple router for node.js [http](https://nodejs.org/api/http.html) module. Reg
 
 ## Installation
 
-npm install http-smpl-router
+```npm install http-smpl-router```
 
 ## Usage
 
 Register GET, POST, PUT, DELETE routes
 
 ```
+var http = require('http');
 var router = require('http-smpl-router');
 
 http.createServer(function(req, resp){
