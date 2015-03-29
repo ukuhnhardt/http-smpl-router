@@ -1,4 +1,5 @@
-var expect = require('expect.js')
+var  expect        = require('expect.js')
+    ,httpMocks     = require('node-mocks-http')
     ;
 
 
