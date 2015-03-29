@@ -1,6 +1,6 @@
 {
   "name": "http-smpl-router",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple router for node http module. Register routes and delegate HTTP requests directly to the router.",
   "keywords": [
     "http",
