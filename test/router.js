@@ -1,5 +1,4 @@
 var expect = require('expect.js')
-    , httpMocks = require('node-mocks-http')
     ;
 
 
